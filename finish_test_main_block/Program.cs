@@ -1,4 +1,5 @@
-﻿string[] arrayGenerate()
+﻿// Метод генерации массива строк задаваемого пользователем размера
+string[] ArrayGenerate()
 {
     // Запрос у пользователя размера создаваемого массива
     Console.WriteLine("Уважаемый пользователь! Введите размер создаваемого массива (кол-во строк): ");
@@ -14,5 +15,12 @@
     return array;
 } // Конец метода
 
-string[] myArray = arrayGenerate();
-Console.WriteLine($"{myArray[2]}");
+// Метод печати массива строк в консоль
+void PrintArray(string[] array)
+{
+    Console.WriteLine("Итоговый массив: ");
+    for(int i = 0; i < array.Length; i++) {Console.WriteLine($"{array[i]}");}
+}
+
+string[] myArray = ArrayGenerate();
+PrintArray(myArray);
