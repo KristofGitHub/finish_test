@@ -1,0 +1,15 @@
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\bin\Debug\net7.0\finish_test_main_block.exe
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\bin\Debug\net7.0\finish_test_main_block.deps.json
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\bin\Debug\net7.0\finish_test_main_block.runtimeconfig.json
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\bin\Debug\net7.0\finish_test_main_block.dll
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\bin\Debug\net7.0\finish_test_main_block.pdb
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.csproj.AssemblyReference.cache
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.GeneratedMSBuildEditorConfig.editorconfig
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.AssemblyInfoInputs.cache
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.AssemblyInfo.cs
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.csproj.CoreCompileInputs.cache
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.dll
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\refint\finish_test_main_block.dll
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.pdb
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\finish_test_main_block.genruntimeconfig.cache
+D:\03 - Развлечения\04 - Программирование\02 - GeekBrains\11 - Итоговый тест по основному блоку\finish_test_main_block\obj\Debug\net7.0\ref\finish_test_main_block.dll
