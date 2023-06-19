@@ -22,23 +22,23 @@ void PrintArray(string[] array, string comment)
     for(int i = 0; i < array.Length; i++) {Console.WriteLine($"{array[i]}");}
 } // Конец метода
 
-// Метод формирования новой матрицы
+// Метод формирования нового массива
 string[] GetNewArray(string[] array)
 {
     int mod_array_length = 0;
     // Определяем, сколько строк в полученном массиве имеют больше 3 символов
-    for(int i = 0; i < array.Length; i++) 
-    {
-        int string_length = array[i].Length;
-        if (string_length <= 3) {mod_array_length++;}  
-    }
+    for(int i = 0; i < array.Length; i++) {if (array[i].Length <= 3) {mod_array_length++;}}
     // Создаём новый массив нужного размера
     string[] modified_array = new string[mod_array_length];
     // Заполняем его
+    int count = 0;
     for(int i = 0; i < array.Length; i++) 
         {
-            int string_length = array[i].Length;
-            if (string_length <= 3) {modified_array[i] = array[i];}  
+            if (array[i].Length <= 3) 
+            {
+                modified_array[count] = array[i]; 
+                count++;
+            }  
         }
     return modified_array;
 }
