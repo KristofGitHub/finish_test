@@ -1,10 +1,9 @@
 ﻿// Метод генерации массива строк задаваемого пользователем размера
 string[] ArrayGenerate()
 {
-    // Запрос у пользователя размера создаваемого массива
+    Console.WriteLine();
     Console.WriteLine("Уважаемый пользователь! Введите размер создаваемого массива (кол-во строк): ");
     int array_size = Convert.ToInt32(Console.ReadLine());
-    // Создание одномерного массива строк нужного размера
     string[] array = new string[array_size];
     // Запрос у пользователя ввода элементов массива (построчно) с помощью цикла
     for(int i = 0; i < array_size; i++) 
@@ -16,11 +15,35 @@ string[] ArrayGenerate()
 } // Конец метода
 
 // Метод печати массива строк в консоль
-void PrintArray(string[] array)
+void PrintArray(string[] array, string comment)
 {
-    Console.WriteLine("Итоговый массив: ");
+    Console.WriteLine();
+    Console.WriteLine(comment + " массив: ");
     for(int i = 0; i < array.Length; i++) {Console.WriteLine($"{array[i]}");}
+} // Конец метода
+
+// Метод формирования новой матрицы
+string[] GetNewArray(string[] array)
+{
+    int mod_array_length = 0;
+    // Определяем, сколько строк в полученном массиве имеют больше 3 символов
+    for(int i = 0; i < array.Length; i++) 
+    {
+        int string_length = array[i].Length;
+        if (string_length <= 3) {mod_array_length++;}  
+    }
+    // Создаём новый массив нужного размера
+    string[] modified_array = new string[mod_array_length];
+    // Заполняем его
+    for(int i = 0; i < array.Length; i++) 
+        {
+            int string_length = array[i].Length;
+            if (string_length <= 3) {modified_array[i] = array[i];}  
+        }
+    return modified_array;
 }
 
 string[] myArray = ArrayGenerate();
-PrintArray(myArray);
+PrintArray(myArray, "Исходный");
+string[] myModifiedArray = GetNewArray(myArray);
+PrintArray(myModifiedArray, "Модифицированный");
